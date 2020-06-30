@@ -1,0 +1,60 @@
+.link{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+h1::before{
+    		content: "hello";
+    		fon t-size:20px;
+    		color: gray; 
+    	}
+h2::after{
+    		content: "hello";
+    		font-size:20px;
+    		color: gray; 
+    	}
+h1:hover
+    	{
+         background-color: black;
+         color: #fff;
+    	}
+li:nth-child(2n)
+    	{
+         background-color: pink;
+    	}
+li:nth-child(n):hover
+    	{
+         background-color: black;
+         color: #fff;
+    	}
+li:first-child{
+    		background-color: yellow;
+    	}
+li:last-child{
+    		background-color: gray;
+    	}
+.main{
+    		border: 5px dotted green;
+    		width: 700px;
+    		height: auto;
+    		margin: 20px auto;
+    		padding: 10px;
+    	}
+a:link{
+ color: green;
+ margin-left: 10PX;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+color:blue;
+}
+ul li{
+    list-style:none;
+    text-transform: uppercase;
+    margin-top:10px;
+    width: 500px; 
+}
